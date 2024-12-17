@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="sources/2025.png">
+    <!-- new -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Demo styles -->
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            border-radius: 6px;
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            width: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="scroll">
+            <div class="logo">
+                <img src="sources/2025.png" alt="" width="70px">
+            </div>
+            <div class="links">
+                <a href="#Home">Home</a>
+                <a href="#Categories">Categories</a>
+                <a href="#Products">Products</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contacts</a>
+            </div>
+            <div class="login-sinup">
+                <a href="" id="log-in">Log In <i class="fa-solid fa-right-to-bracket"></i></a>
+                <a href="" id="sign-up">Sign Up <i class="fa-solid fa-user-plus"></i></a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="detalis">
+                <h2>SAVE ON ALL PRODUCTS</h2>
+                <h1>20 % OFF</h1>
+                <p>WHEN YOU PURCHASE 2 OR MORE ITEMS</p>
+                <a href="youtube" class="btn-head">SHOW</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="Categories" class="section1">
+
+            <div class="header">
+                <h1>Browse Our Categories</h1>
+                <button href="#" class="btn-head">SHOP NOW</button>
+            </div>
+            <div class="items">
+                <div class="item1">
+                    <img src="sources/pngwing.com (2).png" alt="" width="250px">
+                    <h3>Shoes</h3>
+                    <h4>34 Items</h4>
+                </div>
+                <div class="item2">
+                    <img src="sources/pngwing.com (5).png" alt="" width="250px">
+                    <h3>Shoes</h3>
+                    <h4>34 Items</h4>
+                </div>
+                <div class="item3">
+                    <img src="sources/pngwing.com (3).png" alt="" width="250px">
+                    <h3>Shoes</h3>
+                    <h4>34 Items</h4>
+                </div>
+                <div class="item4">
+                    <img src="sources/pngwing.com (7).png" alt="" width="250px">
+                    <h3>Shoes</h3>
+                    <h4>34 Items</h4>
+                </div>
+                <div class="item5">
+                    <img src="sources/pngwing.com (4).png" alt="" width="250px">
+                    <h3>Shoes</h3>
+                    <h4>34 Items</h4>
+                </div>
+            </div>
+        </section>
+        <section id="search">
+            <div class="container">
+                <div class="left-search">
+                   <h1>Find</h1>
+                </div>
+                <div class="mid-search-form">
+                    <input type="search" placeholder="search">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="right-search">
+                    <div class="right-search-cart">
+                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                        <span id="count-heart">0</span>
+                    </div>
+                    <div class="right-search-cart">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        <span id="count-shopping">0</span>
+                    </div>
+                    <h1>Total price <span>$0</span></h1>
+                </div>
+            </div>
+            <div class="items-categorise ">
+                <div class="Categories">
+                    <div class="top-categorise">
+                        <h1>Categorise</h1>
+                        <i class="fa-solid fa-list""></i>
+                    </div>
+                    <div class=" type-categorise">
+                            <a>Casual Shoes</a>
+                            <a>Formal Shoes</a>
+                            <a>Sports Shoes</a>
+                    </div>
+                </div>
+                <div class="slider">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="sources/about (2).png" alt="" width="100px"></div>
+                            <div class="swiper-slide"><img src="sources/bgShoes.png" alt="" width="100px"></div>
+                            <div class="swiper-slide"><img src="sources/bgHead(2).png" alt="" width="100px"></div>
+                        </div>
+                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section2" id="Products">
+            <div class="products" id="item-pr">
+                <!-- <div class="item">
+                    <img src="sources/cak.png" alt="" width="250px">
+                    <h4>Fresh Items</h4>
+                    <h2>From Fresh Orgainc <br>Fruies 250G</h2>
+                    <h3><span class="doller">7.99$</span>/Kg</h3>
+                    <span class="offer">-30%</span>
+                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping" id="a2"></i></a>
+                    <button class="buy-now">Buy Now</button>
+                </div> -->
+            </div>
+        </section>
+        <section class="section3" id="About">
+            <!-- <div class="img-about"></div> -->
+            <img src="sources/AL-Saiedy.png" alt="">
+            <div class="about-details">
+                <h1>About Premium Shoes</h1>
+                <h4>Perfect Shoes Company offers
+                    a wide range of men's and women's
+                    footwear designed with the highest
+                    standards of quality and comfort.
+                    We focus on delivering trendy
+                    designs that suit all tastes,
+                    using premium materials for
+                    durability. Our vision is to be the
+                    top choice for our customers 
+                    in footwear.?</h4>
+            </div>
+        </section>
+        <section id="Contact">
+            <div class="top-section">
+                <h2>Contact <span>Me</span></h2>
+            </div>
+            <div class="container-cont">
+                <div class="social-contacts">
+                    <h3>Follw Me</h3>
+                    <div class="links">
+                        <a href="#"><i class="fa-solid fa-envelope"></i>exampel@gmail.com</a>
+                        <a href="#"><i class="fa-solid fa-phone"></i>01120814218</a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="forms-contact">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Phone Number">
+                        <input type="text" placeholder="Subject">
+
+                        <textarea name="" rows="10" id="" placeholder="Enter Your Subject Here......"></textarea>
+                    </div>
+                    <button class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <section class="Sign">
+            <div id="Sign-co1" class="container-sign ">
+                <div class="top-sign">
+                    <h2>Hi</h2>
+                    <h1>Sign_<span>Up</span></h1>
+                    <i id="icon-close" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="sign-form">
+                    <div class="content-sign">
+                        <input type="text" placeholder="Enter Full Name" required>
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <input type="password" placeholder="Creat PassWord" required>
+                        <input type="password" placeholder="Confirm PassWord" required>
+                        <button type="submit">Sign_UP</button>
+                    </div>
+                </div>
+        </section>
+        <section class="Sign">
+            <div id="Sign-co2" class="container-sign ">
+                <div class="top-sign">
+                    <h2>Hi</h2>
+                    <h1>Log_<span>In</span></h1>
+                    <i id="icon-close2" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="sign-form logInTop logInTopPadding">
+                    <div class="content-sign">
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <input type="password" placeholder="Enter Your PassWord" required>
+                        <button type="submit">Log_In</button>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <!-- الزر -->
+    <div id="btnTop" class="scroll-to-top" onclick="scrollToTop()">↑</div>
+    <!-- المربع -->
+    <div class="offer-new">
+        <a href="">
+            <img src="sources/2025.png" alt="">
+        </a>
+    </div>
+    <!-- نهاية المربع -->
+
+    <footer>
+        <p>&copy; 2025 EL_Qanas | Some Right Reversed</p>
+        <div class="payment">
+            <a href=""><img src="sources/payment-1.png" alt=""></a>
+            <a href=""><img src="sources/payment-2.png" alt=""></a>
+            <a href=""><img src="sources/payment-3.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripr.js"></script>
+</body>
+
+</html>
