@@ -4,10 +4,10 @@ let content_shopping = document.getElementById('count-shopping');
 let count_heart = 0;
 let count_shopping = 0;
 let arry_img = ["sources/pngwing.com (3).png", "sources/pngwing.com (2).png", "sources/pngwing.com (3).png", "sources/pngwing.com (4).png",
-    "sources/pngwing.com (5).png", "sources/pngwing.com (6).png", "sources/pngwing.com (7).png", "sources/pngwing.com (8).png", "sources/pngwing.com (9).png",
-    "sources/pngwing.com (10).png", "sources/pngwing.com.png", "sources/pngwing.com (5).png", "sources/pngwing.com (3).png", "sources/pngwing.com (2).png",
+    "sources/pngwing.com (5).png", "sources/pngwing.com (6).png", "sources/pngwing.com (7).png", "sources/pngwing.com (6).png", "sources/pngwing.com (9).png",
+    "sources/pngwing.com (2).png", "sources/pngwing.com.png", "sources/pngwing.com (5).png", "sources/pngwing.com (3).png", "sources/pngwing.com (2).png",
     "sources/pngwing.com (2).png", "sources/pngwing.com (4).png", "sources/pngwing.com (5).png", "sources/pngwing.com (6).png", "sources/pngwing.com (7).png",
-    "sources/pngwing.com (8).png", "sources/pngwing.com (9).png", "sources/pngwing.com (10).png", "sources/pngwing.com.png", "sources/pngwing.com (8).png"
+    "sources/pngwing.com (6).png", "sources/pngwing.com (9).png", "sources/pngwing.com (2).png", "sources/pngwing.com.png", "sources/pngwing.com (6).png"
 ];
 let arry_span1 = ["7.99$"];
 let arry_h4 = ["Featured Shoes"];
